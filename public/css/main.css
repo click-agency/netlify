@@ -2727,7 +2727,7 @@ h5.counter-number {
     margin: 35px auto 0;
     padding-top: 3px;
     border-radius: 20px;
-    background-color: #beaacb;
+    background-color: var(--paletteColor5);
 }
 #gsnavi .owl-nav .owl-next,
 #gsnavi .owl-nav .owl-prev {
@@ -2948,7 +2948,7 @@ h5.counter-number {
     color: #acadb0;
 }
 #footer-outer {
-    background: #1b0234;
+    background: var(--paletteColor5);
     margin-top: 2rem;
     padding: 40px 0;
 }
@@ -3102,7 +3102,7 @@ table {
     color: var(--paletteColor2);
     font-size: 15px;
     line-height: 1.4;
-    background: #10061b;
+    background: var(--paletteColor5);
 }
 button,
 hr,
