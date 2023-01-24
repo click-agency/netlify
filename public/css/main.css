@@ -1641,12 +1641,13 @@ h3.titlehome span {
     -webkit-transition: 0.5s all ease-in-out;
     -o-transition: 0.5s all ease-in-out;
     transition: 0.5s all ease-in-out;
-    -webkit-box-shadow: 0 23px 43px 0 rgb(0 0 0 / 13%);
-    box-shadow: 0 23px 43px 0 rgb(0 0 0 / 13%);
+	border: 1px solid rgba(226,230,235,.7);
+    -webkit-box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
+    box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
     position: relative;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
     text-align: center;
 }
 .service_content:after {
@@ -2246,8 +2247,8 @@ p.entry-title {
     font-weight: 500;
 }
 .info-feature .gs-feature-list:hover {
-    -webkit-box-shadow: 0 23px 43px 0 rgb(0 0 0 / 13%);
-    box-shadow: 0 23px 43px 0 rgb(0 0 0 / 13%);
+    -webkit-box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
+    box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
 }
 .info-feature .s2-grean,
 .info-feature .s2-pink,
@@ -2555,8 +2556,8 @@ h5.counter-number {
     -webkit-transition: 0.4s all ease-in-out;
     -o-transition: 0.4s all ease-in-out;
     transition: 0.4s all ease-in-out;
-    -webkit-box-shadow: 0 23px 43px 0 rgb(0 0 0 / 13%);
-    box-shadow: 0 23px 43px 0 rgb(0 0 0 / 13%);
+    -webkit-box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
+    box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
     border-radius: 4px;
 }
 .gsprofile-text:hover {
@@ -2865,8 +2866,8 @@ h5.counter-number {
     -webkit-transition: 0.4s all ease-in-out;
     -o-transition: 0.4s all ease-in-out;
     transition: 0.4s all ease-in-out;
-    -webkit-box-shadow: 0 23px 43px 0 rgb(0 0 0 / 13%);
-    box-shadow: 0 23px 43px 0 rgb(0 0 0 / 13%);
+    -webkit-box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
+    box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
     border-radius: 4px;
 }
 .gs-pricing h3 {
