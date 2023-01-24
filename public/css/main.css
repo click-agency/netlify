@@ -2589,7 +2589,7 @@ h5.counter-number {
     opacity: 0;
     visibility: hidden;
     border-radius: 100%;
-    border: 3px solid #cc0fda;
+    border: 3px solid var(--paletteColor6);
     z-index: 1;
     -webkit-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
@@ -2601,7 +2601,7 @@ h5.counter-number {
     top: 50%;
     right: 0;
     margin: 0 auto;
-    border: 3px solid var(--paletteColor6);
+    border: 3px solid var(--paletteColor2);
     -webkit-transform: translateY(-50%);
     -transform: translateY(-50%);
     transform: translateY(-50%);
