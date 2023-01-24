@@ -1,0 +1,168 @@
+body#layout,
+body#layout .add_widget {
+    position: relative;
+}
+body#layout #outer-wrapper,
+body#layout .row {
+    width: 100%;
+    padding: 0;
+}
+body#layout #content-wrapper,
+body#layout .custom-css,
+body#layout .custom-javascript {
+    display: block;
+}
+body#layout .custom-css {
+    background: #daf9e9 !important;
+    float: right;
+    width: 43.9%;
+}
+body#layout .custom-javascript {
+    width: 378px;
+    background: #ffe8e8 !important;
+}
+body#layout {
+    width: 860px;
+    margin: 0;
+    float: left;
+    padding: 10px;
+}
+body#layout #header-outer {
+    overflow: hidden;
+    clear: both;
+    position: relative;
+}
+body#layout .header-middle {
+    height: auto;
+    display: block;
+}
+body#layout .headerbox {
+    float: left;
+    width: 300px;
+}
+body#layout .rightbox {
+    float: right;
+    overflow: hidden;
+    width: 560px;
+}
+body#layout .menu {
+    display: block;
+    float: left;
+    width: 50%;
+}
+body#layout .dropdown {
+    width: 40.717%;
+    float: right;
+}
+body#layout .service-wrapper {
+    display: block;
+    margin: 0 auto;
+}
+body#layout .menu-right {
+    display: block;
+    float: none;
+}
+body#layout #footer-content .footer,
+body#layout .gs-pricing,
+body#layout .service_list {
+    width: 234px;
+    float: left;
+}
+body#layout .box-content,
+body#layout .deve-list {
+    float: left;
+    width: 50%;
+    display: block;
+}
+body#layout .gs-content {
+    display: inline-block;
+    width: 43.766%;
+}
+body#layout .cd-popup,
+body#layout .layout-widget-description,
+body#layout .menuleft,
+body#layout .searchbar,
+body#layout .titlehome {
+    display: none;
+}
+body#layout div.section {
+    margin: 0 5px 10px !important;
+    padding: 16px 16px 18px !important;
+    border: 5px solid #fff;
+}
+body#layout .draggable-widget .widget-wrap2 {
+    background-color: #cdf1da;
+}
+body#layout .visibility .layout-widget-state.visible {
+    background-color: #fbf8bf;
+    padding: 5px;
+    vertical-align: middle;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+body#layout div.layout-title {
+    font-size: 13px;
+    padding-top: 5px;
+}
+body#layout .draggable-widget .widget-wrap3 {
+    background: #f8f8f8 !important;
+}
+body#layout .locked-widget .widget-content {
+    margin: 0;
+}
+body#layout .widget-content {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #fff;
+    margin-left: 10px;
+}
+body#layout .add_widget {
+    border: 0;
+    padding: 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #f1f1f1;
+}
+body#layout .add_widget a {
+    font-size: 14px;
+    cursor: pointer;
+}
+body#layout .section h4 {
+    font-size: 14px;
+    margin: 0;
+}
+body#layout .template-settings {
+    float: left;
+    width: 44%;
+}
+body#layout #content-wrap {
+    float: left;
+    width: 70%;
+}
+body#layout .sidebar-wrapper {
+    float: right;
+    width: 30%;
+    padding: 0;
+}
+body#layout #content-wrapper {
+    margin: 0;
+}
+body#layout .sidebar .widget,
+body#layout .sidebar .widget-content {
+    float: none;
+    overflow: visible;
+}
+body#layout .footer-box div.footer {
+    width: 100%;
+}
+body#layout .custom-javascript {
+    overflow: hidden !important;
+}
+body#layout #header-outer #header-wrap #wrap-content .headerbox,
+body#layout .is-homepage #wrapper,
+body#layout .is-homepage .sidebar-wrapper {
+    display: block !important;
+}
