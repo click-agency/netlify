@@ -662,7 +662,7 @@ ul li {
     background-color: transparent;
 }
 #sticky-wrap.stickyhead #header-wrap {
-    box-shadow: 0 0 10px rgb(128 128 128 / 14%);
+    border-bottom: 1px solid #e6eaed;
     background: var(--paletteColor2);
     color: var(--paletteColor2);
 }
@@ -3528,7 +3528,7 @@ table.tr-caption-container {
     position: sticky;
     top: 0;
     z-index: 999;
-    box-shadow: 0 0 10px rgb(128 128 128 / 14%);
+    border-bottom: 1px solid #e6eaed;
     background: var(--paletteColor2);
 }
 #header-outer #header-wrap {
