@@ -366,7 +366,7 @@ li.menucontact {
 #main-menu ul > li.has-sub > a:after {
     content: "\f107";
     float: right;
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-size: 14px;
     font-weight: 400;
     margin: 2px 0 0 8px;
@@ -531,7 +531,7 @@ li.menucontact {
 }
 .menuleft .m-sub li a:before {
     content: "\f111";
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     position: relative;
     vertical-align: middle;
     font-weight: 900;
@@ -575,7 +575,7 @@ li.menucontact {
 }
 .menuleft ul li.has-sub .submenu-toggle:after {
     content: "\f067";
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 400;
     float: right;
     width: 34px;
@@ -589,7 +589,7 @@ li.menucontact {
 }
 .menuleft ul li.has-sub.show > .submenu-toggle:after {
     content: "\f068";
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 400;
 }
 .menuleft > ul > li > ul > li {
@@ -817,7 +817,7 @@ sup {
 }
 .dropdown-button::after {
     content: "\f107";
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 300;
     text-decoration: inherit;
     margin-left: 5px;
@@ -2836,7 +2836,7 @@ h5.counter-number {
     content: "\f070";
     font-weight: 700;
     position: absolute;
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
 }
 .accordion-item.active > .accordion-header:after {
     content: "\f06e";
@@ -2880,7 +2880,7 @@ h5.counter-number {
 }
 .gs-pricing h3:after {
     content: "\e027";
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     position: absolute;
     right: 0;
     font-size: 60px;
@@ -2973,7 +2973,7 @@ h5.counter-number {
 .websucribe:after,
 .websucribe:before {
     content: "\f111";
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     position: absolute;
     font-weight: 400;
     color: rgb(255 255 255 / 5%);
@@ -5940,7 +5940,7 @@ table.tr-caption-container {
     }
     #gsmenu .submenu-button::after {
         content: "\f0d7";
-        font-family: "Font Awesome 5 Pro";
+        font-family: "Font Awesome 6 Pro";
         font-style: normal;
         font-weight: 900;
         text-decoration: inherit;
