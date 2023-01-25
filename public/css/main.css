@@ -662,7 +662,7 @@ ul li {
     background-color: transparent;
 }
 #sticky-wrap.stickyhead #header-wrap {
-    border-bottom: 1px solid #e6eaed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: var(--paletteColor2);
     color: var(--paletteColor2);
 }
@@ -1641,9 +1641,7 @@ h3.titlehome span {
     -webkit-transition: 0.5s all ease-in-out;
     -o-transition: 0.5s all ease-in-out;
     transition: 0.5s all ease-in-out;
-	border: 1px solid rgba(226,230,235,.7);
-    -webkit-box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
-    box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
+	border: 1px solid rgba(0, 0, 0, 0.1);
     position: relative;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -2556,13 +2554,11 @@ h5.counter-number {
     -webkit-transition: 0.4s all ease-in-out;
     -o-transition: 0.4s all ease-in-out;
     transition: 0.4s all ease-in-out;
-    -webkit-box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
-    box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
     border-radius: 4px;
 }
 .gsprofile-text:hover {
-    -webkit-box-shadow: 0 10px 35px 0 rgb(0 0 0 / 8%);
-    box-shadow: 0 10px 35px 0 rgb(0 0 0 / 8%);
+    -webkit-box-shadow: 0 10px 35px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 10px 35px 0 rgb(0 0 0 / 5%);
 }
 .gsprofile-text:hover .gsteam-img:after,
 .gsprofile-text:hover .gsteam-img:before {
@@ -3529,7 +3525,7 @@ table.tr-caption-container {
     position: sticky;
     top: 0;
     z-index: 999;
-    border-bottom: 1px solid #e6eaed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: var(--paletteColor2);
 }
 #header-outer #header-wrap {
