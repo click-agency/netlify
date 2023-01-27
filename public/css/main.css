@@ -1482,65 +1482,76 @@ sup {
     z-index: 9999999;
     background: var(--paletteColor5);
 }
-.gs-loader .loader {
-    position: relative;
+/*------- end of local-hosted-videos -------*/
+/*------- preloader -------*/
+.dark #preloader {
+  background-color: #222;
 }
-.gs-loader .loader div {
-    box-sizing: content-box;
-    position: absolute;
-    border-width: 4px;
-    border-style: solid;
-    opacity: 1;
-    border-radius: 50%;
-    -webkit-animation: loader 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-    animation: loader 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f9f9f9;
+  z-index: 999999;
 }
-.gs-loader .loader div:nth-child(1) {
-    border-color: var(--paletteColor2);
+
+.preloader {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 0px;
+  text-align: left;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
 }
-.gs-loader .loader div:nth-child(2) {
-    border-color: var(--paletteColor4);
-    -webkit-animation-delay: -0.5s;
-    animation-delay: -0.5s;
+
+.preloader span {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #5d3997;
+  -webkit-animation: preloader 1.3s linear infinite;
+  animation: preloader 1.3s linear infinite;
 }
-.gs-loader .loader {
-    width: 200px !important;
-    height: 200px !important;
-    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
-    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+
+.preloader span:last-child {
+  animation-delay: -0.8s;
+  -webkit-animation-delay: -0.8s;
 }
-@keyframes loader {
-    0% {
-        top: 94px;
-        left: 94px;
-        width: 0;
-        height: 0;
-        opacity: 1;
-    }
-    100% {
-        top: 57px;
-        left: 57px;
-        width: 74px;
-        height: 74px;
-        opacity: 0;
-    }
+
+@keyframes preloader {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
 }
-@-webkit-keyframes loader {
-    0% {
-        top: 94px;
-        left: 94px;
-        width: 0;
-        height: 0;
-        opacity: 1;
-    }
-    100% {
-        top: 57px;
-        left: 57px;
-        width: 74px;
-        height: 74px;
-        opacity: 0;
-    }
+
+@-webkit-keyframes preloader {
+  0% {
+    -webkit-transform: scale(0, 0);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 0;
+  }
 }
+
+/*------- end of preloader -------*/
+
 .shape1,
 .shape2,
 .shape3 {
