@@ -663,7 +663,7 @@ ul li {
     background-color: transparent;
 }
 #sticky-wrap.stickyhead #header-wrap {
-    border-bottom: 1px solid rgba(242, 242, 242, 1);
+    border-bottom: 1px solid #EAEAEA;
     background: var(--paletteColor2);
     color: var(--paletteColor2);
 }
@@ -1642,7 +1642,7 @@ h3.titlehome span {
     -webkit-transition: 0.5s all ease-in-out;
     -o-transition: 0.5s all ease-in-out;
     transition: 0.5s all ease-in-out;
-	border: 1px solid rgba(242, 242, 242, 1);
+	border: 1px solid #EAEAEA;
     position: relative;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -1790,7 +1790,7 @@ h3.titlehome span {
     transition: 0.5s;
 }
 .is-homepage .radius {
-    border-radius: 400px 0 0;
+    border-radius: 250px 0 0;
 }
 .entry-header {
     position: relative;
@@ -2550,7 +2550,7 @@ h5.counter-number {
 .gsprofile-text {
     width: 100%;
     background: var(--paletteColor2);
-    border: 1px solid rgba(242, 242, 242, 1);
+    border: 1px solid #EAEAEA;
     display: inline-block;
     padding-top: 70px;
     -webkit-transition: 0.4s all ease-in-out;
@@ -3527,7 +3527,7 @@ table.tr-caption-container {
     position: sticky;
     top: 0;
     z-index: 999;
-    border-bottom: 1px solid rgba(242, 242, 242, 1);
+    border-bottom: 1px solid #EAEAEA;
     background: var(--paletteColor2);
 }
 #header-outer #header-wrap {
@@ -6248,5 +6248,5 @@ table.tr-caption-container {
 }
 
 .logo {
-    height: 40px;
+    height: 35px;
 }
