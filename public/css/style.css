@@ -3103,8 +3103,7 @@ table {
     font-weight: 600;
     position: relative;
 }
-#footer-bottom,
-#footer-bottom .credit a {
+#footer-bottom {
     overflow: hidden;
     padding: 25px 0;
     text-align: center;
@@ -3112,8 +3111,9 @@ table {
     font-size: 15px;
     line-height: 1.4;
     background: var(--paletteColor5);
-	border-top: 1px solid #1c2540;
+    border-top: 1px solid #1c2540;
 }
+	
 button,
 hr,
 input {
