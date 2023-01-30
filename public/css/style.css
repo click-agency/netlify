@@ -1571,7 +1571,7 @@ sup {
     -moz-border-radius-topright: 1000px;
     border-top-right-radius: 1000px;
     border-bottom-right-radius: 1000px;
-    background: var(--paletteColor12);
+    background: var(--paletteColor16);
     height: 440px;
     width: 230px;
 }
