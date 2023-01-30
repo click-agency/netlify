@@ -3112,6 +3112,7 @@ table {
     font-size: 15px;
     line-height: 1.4;
     background: var(--paletteColor5);
+	border-top: 1px solid #1c2540;
 }
 button,
 hr,
