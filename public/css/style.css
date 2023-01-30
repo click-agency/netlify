@@ -2258,8 +2258,8 @@ p.entry-title {
     font-weight: 500;
 }
 .info-feature .gs-feature-list:hover {
-    -webkit-box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
-    box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
+    -webkit-border: 1px solid #E7E7EA;
+    border: 1px solid #E7E7EA;
 }
 .info-feature .s2-grean,
 .info-feature .s2-pink,
@@ -2876,8 +2876,8 @@ h5.counter-number {
     -webkit-transition: 0.4s all ease-in-out;
     -o-transition: 0.4s all ease-in-out;
     transition: 0.4s all ease-in-out;
-    -webkit-box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
-    box-shadow: 0 2px 5px rgb(143 163 184 / 12%);
+    -webkit-border: 1px solid #E7E7EA;
+    border: 1px solid #E7E7EA;
     border-radius: 4px;
 }
 .gs-pricing h3 {
