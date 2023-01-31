@@ -735,6 +735,9 @@ ul li {
     font-size: 18px;
     display: inline-block;
 }
+lord-icon {
+    vertical-align: middle;
+}
 .comments .comments-content .icon.blog-author::after {
     transition: all 0.2s;
     color: var(--paletteColor2);
