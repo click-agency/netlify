@@ -22,6 +22,9 @@ html {
 }
 body {
     margin: 0;
+}
+
+body.is-homepage {
     overflow-x: hidden !important;
 }
 menu,
@@ -1522,7 +1525,7 @@ sup {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: var(--paletteColor15);
+  background: var(--paletteColor6);
   -webkit-animation: preloader 1.3s linear infinite;
   animation: preloader 1.3s linear infinite;
 }
