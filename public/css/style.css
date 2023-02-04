@@ -2800,7 +2800,7 @@ h5.counter-number {
     border-radius: 5px;
 }
 .accordion .active {
-    background: var(--paletteColor4);
+    background: var(--paletteColor6);
 }
 .accordion .active,
 .accordion .active .accordion-body,
