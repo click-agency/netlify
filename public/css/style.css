@@ -6036,6 +6036,7 @@ table.tr-caption-container {
     .gs-wrapper {
         padding: 80px 0 0;
         overflow: hidden;
+	overflow-x: hidden !important;
     }
     .padding1 {
         padding: 2rem 0;
